@@ -2,8 +2,8 @@ package hu.eszterhazy;
 
 public class PublicDigitalBank extends DigitalBank{
 
-    public PublicDigitalBank(String name, String ownerName) {
-        super(name, ownerName);
+    public PublicDigitalBank(String name, String ownerName, BankDB bankDB) {
+        super(name, ownerName, bankDB);
     }
 
     @Override
@@ -16,20 +16,7 @@ public class PublicDigitalBank extends DigitalBank{
         return false;
     }
 
-    @Override
-    public void addNewUser(Account account) {
 
-    }
-
-    @Override
-    public void removeUser(String name) {
-
-    }
-
-    @Override
-    public void queryUser(String name) {
-
-    }
 
 
     public void queryAccount(String name){
