@@ -12,14 +12,25 @@ public class PublicDigitalBank extends DigitalBank{
     }
 
     @Override
-    public void authenticateAccount() {
+    public boolean authenticateAccount(Account account) {
+        return false;
+    }
+
+    @Override
+    public void addNewUser(Account account) {
 
     }
 
     @Override
-    public void addNewUser() {
+    public void removeUser(String name) {
 
     }
+
+    @Override
+    public void queryUser(String name) {
+
+    }
+
 
     public void queryAccount(String name){
 

@@ -11,7 +11,7 @@ public abstract class DigitalBank implements Bank{
 
     private String ownerName;
 
-    public abstract void addNewUser();
+
 
 
     @Override

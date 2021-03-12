@@ -2,7 +2,10 @@ package hu.eszterhazy;
 
 public interface Bank {
 
-    public void authenticateAccount();
+    public boolean authenticateAccount(Account account);
+    public void addNewUser(Account account);
+    public void removeUser(String name);
+    public void queryUser(String name);
 
     public void setName(String name);
 
